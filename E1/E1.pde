@@ -19,6 +19,7 @@ void draw() {
 
 for(cols=0;cols<10;cols++){
 for(rows=0;rows<10;rows++){
+  stroke(128);
   rect(cols*20,rows*20,20,20);
 if (grid[cols][rows]==light){
 fill(255);
@@ -50,6 +51,9 @@ grid[colsIndex][rowsIndex+1]=!grid[colsIndex][rowsIndex+1];
 }
 }
 
+
+  
+  
 
   
   
